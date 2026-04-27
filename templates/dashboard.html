@@ -654,10 +654,10 @@
   <body>
     {% include 'header.html' %} {% if current_user.is_authenticated %}
     <div class="welcome">
-      <h1>Welcome back, {{ current_user.name.capitalize() }}</h1>
+      <h1>مرحبا بعودتك, {{ current_user.name.capitalize() }}</h1>
     </div>
     {% endif %}
- 
+
     <!-- 🖼️ Image Zoom Modal -->
     <style>
       .zoom-layer {
@@ -1025,7 +1025,7 @@
                 .getElementById("orderedItems")
                 .insertAdjacentHTML("beforeend", cartElement);
             });
- 
+
             modal.classList.add("active");
             closeModal.onclick = () => modal.classList.remove("active");
             modal.addEventListener("click", function (e) {
@@ -1036,13 +1036,13 @@
           },
         });
       }
- 
+
       function zoomImage(src) {
         const layer = document.getElementById("zoomLayer");
         const img = document.getElementById("zoomImg");
         img.src = src;
         layer.classList.add("active");
- 
+
         const close = () => layer.classList.remove("active");
         layer.onclick = close;
         document.querySelector(".zoom-close").onclick = close;
