@@ -1,0 +1,94 @@
+<footer class="roma-footer p-t-75 p-b-32">
+  <div class="container">
+    <div class="row">
+      <!-- Categories -->
+      <div class="col-sm-6 col-lg-3 p-b-50">
+        <h4 class="stext-301 cl0 p-b-30">الأقسام</h4>
+        <ul>
+          <li class="p-b-10">
+            <a
+              href="{{url_for('home', category='hijab')}}"
+              class="stext-107 cl7 hov-cl1 trans-04"
+              >خمارات وطرح</a
+            >
+          </li>
+          <li class="p-b-10">
+            <a
+              href="{{url_for('home', category='abaya')}}"
+              class="stext-107 cl7 hov-cl1 trans-04"
+              >عبايات وملابس</a
+            >
+          </li>
+
+          <li class="p-b-10">
+            <a
+              href="{{url_for('home', category='niqab')}}"
+              class="stext-107 cl7 hov-cl1 trans-04"
+              >نقابات وإكسسوارات</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Help -->
+      <div class="col-sm-6 col-lg-3 p-b-50">
+        <h4 class="stext-301 cl0 p-b-30">السياسات</h4>
+        <ul>
+          <li class="p-b-10">
+            <a
+              href="{{ url_for('return_policy') }}"
+              class="stext-107 cl7 hov-cl1 trans-04"
+              >سياسة الاسترجاع والاستبدال</a
+            >
+          </li>
+          <li class="p-b-10">
+            <a
+              href="{{ url_for('shipping_policy') }}"
+              class="stext-107 cl7 hov-cl1 trans-04"
+              >سياسة الشحن والتوصيل</a
+            >
+          </li>
+          <li class="p-b-10">
+            <a
+              href="{{ url_for('privacy_policy') }}"
+              class="stext-107 cl7 hov-cl1 trans-04"
+              >سياسة الخصوصية</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Get in touch -->
+      <div class="col-sm-6 col-lg-3 p-b-50">
+        <h4 class="stext-301 cl0 p-b-30">تواصلوا معنا</h4>
+        <p class="stext-107 cl7 size-201">
+          أي استفسار؟ يسعدنا تواصلكم معنا عبر صفحاتنا على مواقع التواصل
+          الاجتماعي أدناه
+        </p>
+        <div class="p-t-27">
+          <a
+            href="https://www.facebook.com/profile.php?id=100070947764634"
+            class="fs-18 cl7 hov-cl1 trans-04 m-l-16"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=%2B201061931981&token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjEyNSJ9.eyJleHAiOjE3NzcyOTI1MDYsInBob25lIjoiKzIwMTA2MTkzMTk4MSIsImNvbnRleHQiOiJBZmhyM3hub1dLaW8teFBmbTBNUFlMQ1VHc2JFeGphRTV4LXlySUNOeXhzTW9iM2VQNTAwWHFLQWU1NmZGSVloUHRTeThGbjV3NWUzZ25GalNQa0FCRkhfR2VoTzBJbjN5UzFiNm5sQzlCM3BJWUtoU3o3SVZtdHhOWVZwZ2dnWkdvQTBjWGMwQjFjX3JRWFpjeXRGTlZrci1nIiwic291cmNlIjoiRkJfUGFnZSIsImFwcCI6ImZhY2Vib29rIiwiZW50cnlfcG9pbnQiOiJwYWdlX2N0YSJ9.ZZ3NrAELKZP2a2X5PYctEnJ92XVEnlCjuvz1IYuhpi46Z6BBPaudD5m7jRW8jqMuMjL_eQ9Kv5CzAXJfvpZIRw&fbclid=IwY2xjawRa9T1leHRuA2FlbQIxMABicmlkETFkc0p4eXRDVTk3aUdFTTlDc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmU9ks8jDQDdY-69h0RNArz8X2kZsWO2HeQqSy58yCdgA812cTxBeT2oGI6p_aem_ogjBmQh3pfOoYhKnRSDEng"
+            class="fs-18 cl7 hov-cl1 trans-04 m-l-16"
+            ><i class="fa fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-t-40">
+      <!-- Copyright -->
+      <p class="stext-107 cl6 txt-center">
+        &copy; {{ current_year }} جميع الحقوق محفوظة | صُنع بكل حب
+        <i class="fa fa-heart-o" aria-hidden="true"></i> بواسطة
+        <a href="https://www.facebook.com/no.smile.39982" target="_blank"
+          >د. عبد الرحمن</a
+        >
+      </p>
+    </div>
+  </div>
+</footer>
