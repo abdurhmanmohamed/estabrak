@@ -322,9 +322,10 @@
                         <label>Product Category</label>
                         <select id="category" class="roma-input" style="font-family: 'Cairo';">
                             <option value="">-- اختر القسم --</option>
-                            <option value="hijab" {% if item.category == 'hijab' %}selected{% endif %}>✨ خمار وطرحة</option>
-                            <option value="abaya" {% if item.category == 'abaya' %}selected{% endif %}>🌸 عباية وملابس</option>
-                            <option value="niqab" {% if item.category == 'niqab' %}selected{% endif %}>👑 نقاب وإكسسوار</option>
+                            <option value="abaya" {% if item.category == 'abaya' %}selected{% endif %}>🌸 عبايات ودريسات</option>
+                            <option value="ednaah" {% if item.category == 'ednaah' %}selected{% endif %}>✨ إدناءات وملاحف</option>
+                            <option value="accessories" {% if item.category == 'accessories' %}selected{% endif %}>👜 حوانتي واكسسوارات</option>
+                            <option value="niqab" {% if item.category == 'niqab' %}selected{% endif %}>👑 نقابات وطرح</option>
                             <option value="hot" {% if item.category == 'hot' %}selected{% endif %}>🔥 عروض ساخنة</option>
                             <option value="top" {% if item.category == 'top' %}selected{% endif %}>🌟 الأكثر مبيعاً</option>
                         </select>
